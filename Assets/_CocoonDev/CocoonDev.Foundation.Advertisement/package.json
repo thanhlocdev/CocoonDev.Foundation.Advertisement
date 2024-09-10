@@ -1,0 +1,12 @@
+{
+    "name": "com.cocoondev.foundation.advertisement",
+    "displayName": "CocoonDev.Foundation.Advertisement",
+    "version": "1.0.0",
+    "type": "library",
+    "unity": "2022.3",
+    "dependencies": {
+        "com.cysharp.unitask": "2.5.5",
+        "com.cysharp.zstring": "2.6.0",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+    }
+}

@@ -1,12 +1,13 @@
 using UnityEngine;
 using PrimeTween;
+using CocoonDev.Foundation.Advertisement.Providers;
 
 
 #if MODULE_ADMOB
 using GoogleMobileAds.Api;
 #endif
 
-namespace CocoonDev.Foundation.Advertisement
+namespace CocoonDev.Foundation.Advertisement.Providers
 {
 #if MODULE_ADMOB
     public class AdMobHandler : AdProviderHandler
